@@ -23,9 +23,9 @@ https://youtu.be/CaRXfTXOGJI
 https://youtu.be/1b5iBmwbF1k
 ```
 
-Run `python playlist-maker.py`
+Run `python playlist-maker.py PLAYLIST_ID` where PLAYLIST_ID is the ID of the playlist you wish to add the songs from playlist.txt to.
 
-Console will ask you to load a URL to authorize your YouTube account
+Console will ask you to load a URL to authorize your YouTube account, and you'll need to copy a code into the console after it's done. Make sure you're signing into the right account that owns the playlist - some Google accounts will have two different YouTube identities and you'll get 403 forbidden playlistItemsNotAccessible
 
 With any luck, it'll add songs to the playlist until it reaches the end of the file or you run out of your quota
 
